@@ -1,0 +1,21 @@
+APP_ENV:
+  type: string
+  required: true
+  one_of: [local, production, staging]
+
+APP_PORT:
+  type: integer
+  required: true
+  
+TEMPERATURE:
+  type: float
+  required: true
+
+MAIL_MAILER:
+  type: string
+  required: true
+  one_of: [smtp, mailtrap]
+
+MAIL_FROM_ADDRESS:
+  type: string
+  required: true

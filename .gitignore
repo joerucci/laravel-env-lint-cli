@@ -1,0 +1,30 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Built Go binaries
+/laravel-env-lint
+/laravel-env-lint.exe
+
+# Test binaries and coverage
+*.test
+*.out
+*.coverprofile
+
+# Go workspace files
+go.work
+go.work.sum
+/pkg/sumdb/*
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
