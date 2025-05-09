@@ -2,7 +2,10 @@
 
 A fast, standalone Go CLI to **lint** and **validate** your Laravel-style `.env` files against a YAML schema.
 
+[![Latest Release](https://img.shields.io/github/v/release/joerucci/laravel-env-lint-cli?style=flat-square)](https://github.com/joerucci/laravel-env-lint-cli/releases)
 ![CI](https://github.com/joerucci/laravel-env-lint-cli/actions/workflows/ci.yml/badge.svg)
+[![Go Version](https://img.shields.io/badge/go-1.24.3-blue?style=flat-square)](https://golang.org/doc/go1.24)
+[![License](https://img.shields.io/github/license/joerucci/laravel-env-lint-cli?style=flat-square)](LICENSE)
 
 ## Features
 
